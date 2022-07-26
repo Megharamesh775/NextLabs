@@ -1,6 +1,7 @@
 ## Part 1
 ### 1. Write a regex to extract all the numbers with orange color background from the below text in italics.
 == I have used regular expressions to filter out the numbers.
+   https://github.com/Megharamesh775/NextLabs/blob/master/Assessment/part1/regex_dict.ipynb
 
 ### 2. identify ratings where review text is good, but rating is negativeso that the support team can point this to users.
 ==  Here we need to find the sentiment of the reviews individually and find out those reviews where sentiment is positive but the rating is poor. 
@@ -9,18 +10,21 @@
     So i used the positive sentiment score of roberta model which is greater than 0.5 with the condition where the given star rating was 1 or 2.
     This gives the misclassified reviews. I used Flask to deploy this model. Where Authentication is required and when an input csv file is uploaded,
     file is processed and output.csv is returned.Check the link.
-    github link-
-    deployed link-
+    username: megha
+    password: ramesh
+    github link- https://github.com/Megharamesh775/NextLabs/tree/master/Assessment/part1/chrome%20review
+    deployed link- https://fine-sides-prove-103-163-248-24.loca.lt/
    
 ### 3. Ranking Data
 ==  Here i have checked correlation between keyword and App id and how both affect the ranking parameter.
     Accordingly,the keywords are given more priority. APP ID has some correlation with the keyword in determining the rank and also Short description 
     have more correlation to ranking than long description.
+    https://github.com/Megharamesh775/NextLabs/blob/master/Assessment/part1/Ranking_data.ipynb
    
 ## Part 2
 
 ### 1.Check if sentence is grammatically correct
-==   used scoring method for checking grammar ranging 0-100 github link-
+==   used scoring method for checking grammar ranging 0-100 github link- https://github.com/Megharamesh775/NextLabs/blob/master/Assessment/part2/Grammar.ipynb
 
 ### 2.
 ==  V={(a,2a):for all real a (option 3)
